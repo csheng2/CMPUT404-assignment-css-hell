@@ -22,3 +22,7 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 
+## Part 1: Changes to Gutenberg HTML Files
+* Added link reference to style.css
+* Changed the src of the images to http address links
+* Added class "top-section" to the div elements at the top of the HTML page

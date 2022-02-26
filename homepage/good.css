@@ -1,3 +1,68 @@
 img{
-    width: 100%;
+    width: 15%;
+    border-radius: 50%;
+    margin-bottom: 1em; 
+}
+
+h3{
+    text-decoration: underline;
+    margin-bottom: 0em;
+}
+
+p {
+    font-size: large;
+    margin-top: 0em;
+    margin-bottom: 0.2em;    
+}
+
+form {
+    margin-top: 0em;
+}
+
+div.main{
+    text-align: center;
+}
+
+div.professional-history{
+    margin-top: 2em;
+    padding-top: 0.1em;
+    padding-bottom: 1em;    
+    background-color: aquamarine;
+}
+
+div.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.column {
+    float: left;
+    width: 25%;
+}
+
+div.side-bar-left{
+    width: 19%;
+    height: 90%;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+    padding-left: 1%;
+}
+
+div.side-bar-right{
+    width: 12%;
+    height: 90%;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    right: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+    padding-left: 1%;
 }

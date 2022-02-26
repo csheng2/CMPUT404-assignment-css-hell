@@ -31,3 +31,9 @@ Code is licensed under the Apache 2.0 license.
 * Good HTML background image:
   * Author: monikabaechler
   * Link: https://pixabay.com/illustrations/halloween-lilac-paper-pattern-2627200/
+* Ugly HTML background image:
+  * Author: Dreamstime
+  * Link: https://thumbs.dreamstime.com/b/comic-book-pop-art-strip-radial-blue-background-comic-book-pop-art-strip-radial-blue-background-196771802.jpg
+* Ugly HTML CSS for flickering neon text effect:
+  * Author: Silvia O'Dwyer
+  * Link: https://css-tricks.com/how-to-create-neon-text-with-css/

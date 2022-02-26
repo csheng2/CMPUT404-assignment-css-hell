@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+img.profile{
+    height: 5em;
+    border: solid;
+    border-color: hotpink;
+    border-radius: 10px;
+}
+
+main {
+    width: 50%
+}
+
+body{
+    font-family: 'Shadows Into Light', cursive;
+    color: hotpink;
+    font-size: larger;
+    font-weight: bold;
+    background: url("refs/ugly-background-image.jpg");
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 0;
+    font-size: 20;
+    color: #fff;
+    animation: flicker 1.5s infinite alternate;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+/* Flickering animation */
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px yellow,
+        0 0 80px yellow,
+        0 0 90px yellow,
+        0 0 100px yellow,
+        0 0 150px yellow;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+}
+
+
+div.side-bar-left{
+    width: 50%;
+    height: 90%;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    right: 10px;
+    overflow-x: hidden;
+    padding: 8px 0;
+    padding-left: 1%;
+    padding-right: 1%;
+}

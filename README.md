@@ -26,3 +26,8 @@ Code is licensed under the Apache 2.0 license.
 * Added link reference to style.css
 * Changed the src of the images to http address links
 * Added class "top-section" to the div elements at the top of the HTML page
+
+## Part 2: References to sources used
+* Good HTML background image:
+  * Author: monikabaechler
+  * Link: https://pixabay.com/illustrations/halloween-lilac-paper-pattern-2627200/
